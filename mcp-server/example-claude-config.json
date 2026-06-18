@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "snapcut-ai": {
+      "command": "node",
+      "args": [
+        "d:\\project1\\snapcut-ai-06\\mcp-server\\dist\\index.js"
+      ]
+    }
+  }
+}

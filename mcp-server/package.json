@@ -1,0 +1,23 @@
+{
+  "name": "snapcut-ai-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for SnapCut AI - background removal tool",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["mcp", "snapcut", "ai", "background-removal"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
