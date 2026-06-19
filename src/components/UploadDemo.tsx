@@ -202,7 +202,7 @@ export function UploadDemo() {
       formData.append("image", uploadedFile);
       formData.append("file", uploadedFile);
 
-      const response = await fetch("https://levi987987.app.n8n.cloud/webhook/remove-background", {
+      const response = await fetch("https://margot967.app.n8n.cloud/webhook/remove-background", {
         method: "POST",
         body: formData,
         signal: controller.signal,
